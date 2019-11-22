@@ -1,5 +1,8 @@
 ### 오리지날 코드 경로: https://dr-hkim.github.io/Naver-News-Web-Scraping-using-Keywords-in-R/
 
+library(rvest)
+library(dplyr)
+
 news_crawling = function(keyword, startDate, endDate, print=TRUE)
 {
 	## 변수 입력하기
